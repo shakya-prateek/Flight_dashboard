@@ -1,0 +1,15 @@
+AIRLINE,AIRLINE_NAME,total_flights,cancelled_flights,diverted_flights,avg_departure_delay,avg_arrival_delay,median_arrival_delay,total_delay_minutes,avg_distance,avg_air_system_delay,avg_airline_delay,avg_weather_delay,avg_late_aircraft_delay,avg_security_delay,cancellation_rate_pct,on_time_flights,on_time_rate_pct
+AA,American Airlines Inc.,12612,195,38,9.55,4.16,-6.0,157296.0,1040.43,2.48,4.15,0.64,4.1,0.04,1.55,12417,81.52
+AS,Alaska Airlines Inc.,2958,10,7,1.69,-1.09,-6.0,21662.0,1184.36,1.63,2.49,0.08,1.93,0.02,0.34,2948,87.89
+B6,JetBlue Airways,4480,75,9,11.43,6.98,-5.0,66005.0,1080.01,3.84,3.93,0.3,5.52,0.06,1.67,4405,77.98
+DL,Delta Air Lines Inc.,14921,64,28,7.18,-0.08,-8.0,133565.0,853.62,2.1,3.16,0.57,2.19,0.0,0.43,14857,87.11
+EV,Atlantic Southeast Airlines,9853,298,29,8.4,6.16,-4.0,125107.0,465.2,2.96,3.75,0.33,4.54,0.0,3.02,9555,80.97
+F9,Frontier Airlines Inc.,1553,14,5,13.74,13.27,-1.0,29809.0,969.13,7.07,3.55,0.31,6.92,0.0,0.9,1539,74.01
+HA,Hawaiian Airlines Inc.,1338,2,0,0.89,2.42,-1.0,8676.0,697.54,0.1,2.66,0.1,1.94,0.0,0.15,1336,89.37
+MQ,American Eagle Airlines Inc.,5080,244,17,10.13,6.46,-6.0,70120.0,423.93,3.14,3.66,1.45,4.56,0.01,4.8,4836,78.58
+NK,Spirit Air Lines,1980,29,4,15.13,13.27,0.0,36993.0,984.04,7.6,4.21,0.49,4.93,0.04,1.46,1951,71.96
+OO,Skywest Airlines Inc.,10302,167,28,7.84,6.06,-4.0,128447.0,503.21,2.32,3.04,0.55,5.35,0.03,1.62,10135,81.26
+UA,United Air Lines Inc.,8862,126,29,13.91,4.8,-6.0,120067.0,1266.24,2.94,4.01,0.58,5.0,0.0,1.42,8736,79.4
+US,US Airways Inc.,3477,66,4,5.88,3.34,-4.0,35887.0,901.99,2.93,3.1,0.33,2.65,0.06,1.9,3411,82.56
+VX,Virgin America,1068,5,2,9.55,4.78,-4.0,13040.0,1379.4,3.99,2.78,0.49,3.6,0.0,0.47,1063,82.6
+WN,Southwest Airlines Co.,21516,259,51,10.8,4.62,-4.0,241404.0,742.0,1.31,3.13,0.41,5.2,0.01,1.2,21257,81.26

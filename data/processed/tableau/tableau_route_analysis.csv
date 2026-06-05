@@ -1,0 +1,201 @@
+ROUTE,ORIGIN_AIRPORT,DESTINATION_AIRPORT,ORIGIN_CITY,DEST_CITY,ORIGIN_STATE,DEST_STATE,flight_count,avg_arr_delay,median_arr_delay,delay_rate,avg_distance,unique_airlines,delay_rate_pct
+LAX -> SFO,LAX,SFO,Los Angeles,San Francisco,CA,CA,237,16.41,0.0,0.29,337.0,6,28.69
+SFO -> LAX,SFO,LAX,San Francisco,Los Angeles,CA,CA,217,17.67,3.0,0.32,337.0,6,32.26
+LAX -> JFK,LAX,JFK,Los Angeles,New York,CA,NY,203,5.92,-5.0,0.21,2475.0,5,21.18
+JFK -> LAX,JFK,LAX,New York,Los Angeles,NY,CA,202,-4.7,-8.0,0.16,2475.0,5,16.0
+LAS -> LAX,LAS,LAX,Las Vegas,Los Angeles,NV,CA,183,12.01,2.0,0.25,236.0,7,25.14
+JFK -> SFO,JFK,SFO,New York,San Francisco,NY,CA,170,-3.99,-12.0,0.18,2586.0,5,17.65
+ORD -> LGA,ORD,LGA,Chicago,New York,IL,NY,159,9.13,-8.0,0.27,733.0,4,26.75
+ATL -> MCO,ATL,MCO,Atlanta,Orlando,GA,FL,155,7.54,-3.0,0.17,404.0,4,16.77
+LGA -> ORD,LGA,ORD,New York,Chicago,NY,IL,147,5.2,-9.0,0.21,733.0,3,21.09
+HNL -> OGG,HNL,OGG,Honolulu,Kahului,HI,HI,144,2.67,0.0,0.06,100.0,1,6.25
+LAX -> ORD,LAX,ORD,Los Angeles,Chicago,CA,IL,142,3.99,-4.0,0.18,1744.0,5,17.61
+OGG -> HNL,OGG,HNL,Kahului,Honolulu,HI,HI,140,5.77,1.0,0.17,100.0,1,17.14
+FLL -> ATL,FLL,ATL,Ft. Lauderdale,Atlanta,FL,GA,139,-3.8,-11.0,0.09,581.0,3,9.35
+LAX -> LAS,LAX,LAS,Los Angeles,Las Vegas,CA,NV,139,8.01,-2.0,0.19,236.0,7,19.42
+SFO -> LAS,SFO,LAS,San Francisco,Las Vegas,CA,NV,139,3.67,-5.0,0.19,414.0,5,18.84
+ORD -> SFO,ORD,SFO,Chicago,San Francisco,IL,CA,138,5.96,-3.5,0.24,1846.0,4,23.91
+DCA -> BOS,DCA,BOS,Arlington,Boston,VA,MA,137,7.47,-4.0,0.19,399.0,3,18.98
+MCO -> ATL,MCO,ATL,Orlando,Atlanta,FL,GA,136,-2.45,-8.5,0.1,404.0,4,9.56
+LGA -> ATL,LGA,ATL,New York,Atlanta,NY,GA,133,1.98,-9.0,0.21,762.0,4,21.05
+DEN -> PHX,DEN,PHX,Denver,Phoenix,CO,AZ,132,5.83,-4.0,0.23,602.0,7,22.73
+SAN -> SFO,SAN,SFO,San Diego,San Francisco,CA,CA,132,6.27,-4.5,0.17,447.0,4,17.42
+SEA -> PHX,SEA,PHX,Seattle,Phoenix,WA,AZ,132,9.04,-2.5,0.2,1107.0,6,20.45
+SFO -> JFK,SFO,JFK,San Francisco,New York,CA,NY,132,4.3,-10.0,0.15,2586.0,5,15.15
+SEA -> SFO,SEA,SFO,Seattle,San Francisco,WA,CA,130,12.11,-1.0,0.22,679.0,4,22.48
+BOS -> DCA,BOS,DCA,Boston,Arlington,MA,VA,128,0.61,-8.0,0.15,399.0,3,14.84
+ATL -> LGA,ATL,LGA,Atlanta,New York,GA,NY,127,10.99,-1.5,0.29,762.0,4,28.57
+ATL -> ORD,ATL,ORD,Atlanta,Chicago,GA,IL,127,4.63,-4.0,0.2,606.0,8,20.47
+ATL -> TPA,ATL,TPA,Atlanta,Tampa,GA,FL,127,6.12,-3.0,0.19,406.0,3,18.9
+SFO -> SAN,SFO,SAN,San Francisco,San Diego,CA,CA,127,5.53,-5.0,0.14,447.0,4,14.17
+ORD -> DFW,ORD,DFW,Chicago,Dallas-Fort Worth,IL,TX,125,15.35,-4.0,0.3,802.0,4,29.84
+PHX -> DEN,PHX,DEN,Phoenix,Denver,AZ,CO,125,6.22,-3.0,0.21,602.0,6,20.8
+DFW -> ORD,DFW,ORD,Dallas-Fort Worth,Chicago,TX,IL,123,1.28,-6.0,0.19,802.0,4,18.7
+SFO -> ORD,SFO,ORD,San Francisco,Chicago,CA,IL,123,3.09,-5.0,0.15,1846.0,4,15.45
+DFW -> LAX,DFW,LAX,Dallas-Fort Worth,Los Angeles,TX,CA,122,0.07,-8.0,0.14,1235.0,3,13.93
+LAX -> SEA,LAX,SEA,Los Angeles,Seattle,CA,WA,122,-1.72,-6.0,0.12,954.0,5,12.3
+ATL -> CLT,ATL,CLT,Atlanta,Charlotte,GA,NC,120,3.12,-7.0,0.15,226.0,4,15.0
+DFW -> ATL,DFW,ATL,Dallas-Fort Worth,Atlanta,TX,GA,120,11.75,-4.0,0.23,731.0,4,23.33
+LAX -> PHX,LAX,PHX,Los Angeles,Phoenix,CA,AZ,120,5.44,-0.5,0.24,370.0,5,24.17
+ORD -> LAX,ORD,LAX,Chicago,Los Angeles,IL,CA,119,2.13,-8.0,0.23,1744.0,5,22.69
+ATL -> BWI,ATL,BWI,Atlanta,Baltimore,GA,MD,118,2.56,-8.0,0.18,577.0,3,17.95
+ATL -> PHL,ATL,PHL,Atlanta,Philadelphia,GA,PA,118,3.69,-6.0,0.18,666.0,6,17.8
+ORD -> BOS,ORD,BOS,Chicago,Boston,IL,MA,118,3.56,-7.0,0.2,867.0,5,20.34
+TPA -> ATL,TPA,ATL,Tampa,Atlanta,FL,GA,118,0.16,-7.0,0.11,406.0,3,11.02
+LAX -> ATL,LAX,ATL,Los Angeles,Atlanta,CA,GA,117,-2.9,-6.0,0.11,1947.0,5,11.11
+LAS -> SFO,LAS,SFO,Las Vegas,San Francisco,NV,CA,116,10.02,-3.0,0.25,414.0,5,25.0
+DAL -> HOU,DAL,HOU,Dallas,Houston,TX,TX,115,8.33,-1.0,0.22,239.0,1,21.74
+SEA -> LAX,SEA,LAX,Seattle,Los Angeles,WA,CA,115,-1.37,-5.0,0.12,954.0,4,12.17
+DEN -> LAX,DEN,LAX,Denver,Los Angeles,CO,CA,114,11.79,3.0,0.27,862.0,5,27.19
+SJC -> LAX,SJC,LAX,San Jose,Los Angeles,CA,CA,114,8.45,3.5,0.24,308.0,3,23.68
+DCA -> ATL,DCA,ATL,Arlington,Atlanta,VA,GA,113,-0.21,-9.0,0.12,547.0,2,12.39
+DEN -> LAS,DEN,LAS,Denver,Las Vegas,CO,NV,113,5.45,-4.0,0.2,628.0,5,20.35
+LAS -> DEN,LAS,DEN,Las Vegas,Denver,NV,CO,113,12.58,-3.0,0.26,628.0,4,25.66
+LAX -> DFW,LAX,DFW,Los Angeles,Dallas-Fort Worth,CA,TX,113,3.52,-5.0,0.14,1235.0,3,14.16
+MIA -> LGA,MIA,LGA,Miami,New York,FL,NY,111,9.06,-2.5,0.27,1096.0,3,26.85
+SEA -> ANC,SEA,ANC,Seattle,Anchorage,WA,AK,111,0.24,-1.0,0.17,1448.0,3,17.12
+LAX -> SJC,LAX,SJC,Los Angeles,San Jose,CA,CA,110,8.76,-1.0,0.2,308.0,3,20.0
+SLC -> LAX,SLC,LAX,Salt Lake City,Los Angeles,UT,CA,110,1.35,-4.0,0.16,590.0,4,16.36
+LAS -> PHX,LAS,PHX,Las Vegas,Phoenix,NV,AZ,109,5.5,-4.0,0.11,255.0,3,11.01
+SLC -> DEN,SLC,DEN,Salt Lake City,Denver,UT,CO,109,4.13,-5.0,0.18,391.0,6,17.59
+ATL -> FLL,ATL,FLL,Atlanta,Ft. Lauderdale,GA,FL,108,2.95,-3.0,0.1,581.0,3,10.19
+BOS -> ORD,BOS,ORD,Boston,Chicago,MA,IL,108,9.02,-1.5,0.24,867.0,5,24.07
+DEN -> ORD,DEN,ORD,Denver,Chicago,CO,IL,108,13.19,-0.5,0.3,888.0,4,29.63
+MSP -> ORD,MSP,ORD,Minneapolis,Chicago,MN,IL,108,23.18,0.0,0.29,334.0,7,28.7
+SFO -> SEA,SFO,SEA,San Francisco,Seattle,CA,WA,108,9.28,-6.0,0.19,679.0,4,18.52
+ATL -> DFW,ATL,DFW,Atlanta,Dallas-Fort Worth,GA,TX,107,1.25,-8.0,0.14,731.0,3,14.02
+HNL -> LIH,HNL,LIH,Honolulu,Lihue,HI,HI,107,2.64,0.0,0.11,102.0,1,11.21
+KOA -> HNL,KOA,HNL,Kailua/Kona,Honolulu,HI,HI,107,-0.04,-2.0,0.08,163.0,1,8.41
+ORD -> ATL,ORD,ATL,Chicago,Atlanta,IL,GA,107,7.01,-1.0,0.21,606.0,8,20.95
+LGA -> BOS,LGA,BOS,New York,Boston,NY,MA,106,10.16,-5.0,0.27,184.0,3,27.36
+OAK -> LAX,OAK,LAX,Oakland,Los Angeles,CA,CA,105,14.85,5.0,0.32,337.0,3,32.38
+PHX -> LAX,PHX,LAX,Phoenix,Los Angeles,AZ,CA,105,19.27,4.0,0.35,370.0,5,35.24
+PHX -> LAS,PHX,LAS,Phoenix,Las Vegas,AZ,NV,104,7.17,-2.5,0.2,255.0,3,20.19
+LAX -> SMF,LAX,SMF,Los Angeles,Sacramento,CA,CA,103,14.85,0.0,0.24,373.0,3,24.27
+SLC -> PHX,SLC,PHX,Salt Lake City,Phoenix,UT,AZ,103,-0.5,-6.0,0.09,507.0,5,8.74
+ATL -> MSY,ATL,MSY,Atlanta,New Orleans,GA,LA,102,3.47,-6.0,0.14,425.0,3,13.86
+ORD -> PHL,ORD,PHL,Chicago,Philadelphia,IL,PA,102,10.59,-7.0,0.27,678.0,6,27.45
+DEN -> SFO,DEN,SFO,Denver,San Francisco,CO,CA,101,4.58,-2.0,0.2,967.0,3,19.8
+HNL -> KOA,HNL,KOA,Honolulu,Kailua/Kona,HI,HI,101,-0.65,-2.0,0.06,163.0,1,5.94
+LIH -> HNL,LIH,HNL,Lihue,Honolulu,HI,HI,101,-1.45,-3.0,0.02,102.0,1,1.98
+BOS -> LGA,BOS,LGA,Boston,New York,MA,NY,100,7.34,-2.5,0.21,184.0,3,21.0
+LAX -> SLC,LAX,SLC,Los Angeles,Salt Lake City,CA,UT,100,12.33,-0.5,0.24,590.0,4,24.0
+DCA -> ORD,DCA,ORD,Arlington,Chicago,VA,IL,99,10.06,-5.0,0.21,612.0,3,21.21
+ATL -> MIA,ATL,MIA,Atlanta,Miami,GA,FL,98,0.27,-3.0,0.11,594.0,3,11.22
+JFK -> MCO,JFK,MCO,New York,Orlando,NY,FL,98,1.02,-5.0,0.19,944.0,3,18.56
+LAX -> OAK,LAX,OAK,Los Angeles,Oakland,CA,CA,98,8.63,1.0,0.26,337.0,2,25.51
+ORD -> MSP,ORD,MSP,Chicago,Minneapolis,IL,MN,97,17.48,2.0,0.32,334.0,6,31.96
+BOS -> PHL,BOS,PHL,Boston,Philadelphia,MA,PA,96,1.6,-8.0,0.18,280.0,3,17.71
+JAX -> ATL,JAX,ATL,Jacksonville,Atlanta,FL,GA,96,1.09,-9.0,0.15,270.0,2,14.58
+ATL -> BOS,ATL,BOS,Atlanta,Boston,GA,MA,95,1.16,-8.0,0.13,946.0,3,12.63
+DEN -> SEA,DEN,SEA,Denver,Seattle,CO,WA,95,-0.52,-6.0,0.17,1024.0,5,16.84
+DEN -> SLC,DEN,SLC,Denver,Salt Lake City,CO,UT,95,5.06,-3.0,0.21,391.0,5,21.05
+HOU -> DAL,HOU,DAL,Houston,Dallas,TX,TX,95,7.35,-2.0,0.16,239.0,1,15.96
+DEN -> DFW,DEN,DFW,Denver,Dallas-Fort Worth,CO,TX,94,13.76,0.0,0.26,641.0,5,25.81
+ANC -> SEA,ANC,SEA,Anchorage,Seattle,AK,WA,93,-3.91,-7.0,0.07,1448.0,3,6.52
+CLT -> ATL,CLT,ATL,Charlotte,Atlanta,NC,GA,93,0.09,-6.0,0.14,226.0,3,13.98
+DEN -> MSP,DEN,MSP,Denver,Minneapolis,CO,MN,93,-0.42,-5.5,0.15,680.0,6,15.22
+DFW -> DEN,DFW,DEN,Dallas-Fort Worth,Denver,TX,CO,93,3.71,-4.0,0.15,641.0,5,15.22
+EWR -> MCO,EWR,MCO,Newark,Orlando,NJ,FL,93,4.32,-4.0,0.23,937.0,2,22.58
+LAX -> HNL,LAX,HNL,Los Angeles,Honolulu,CA,HI,93,9.82,1.0,0.27,2556.0,4,26.88
+ORD -> DEN,ORD,DEN,Chicago,Denver,IL,CO,93,17.51,0.0,0.3,888.0,4,30.11
+PHL -> ATL,PHL,ATL,Philadelphia,Atlanta,PA,GA,93,0.16,-9.0,0.2,666.0,6,20.43
+ITO -> HNL,ITO,HNL,Hilo,Honolulu,HI,HI,92,0.89,-3.5,0.09,216.0,1,8.7
+MIA -> ATL,MIA,ATL,Miami,Atlanta,FL,GA,92,7.78,-6.5,0.17,594.0,3,17.39
+MSY -> ATL,MSY,ATL,New Orleans,Atlanta,LA,GA,92,0.5,-7.5,0.11,425.0,3,10.87
+ATL -> DTW,ATL,DTW,Atlanta,Detroit,GA,MI,91,2.42,-4.0,0.18,594.0,3,17.58
+AUS -> DFW,AUS,DFW,Austin,Dallas-Fort Worth,TX,TX,91,14.54,-3.0,0.24,190.0,1,24.44
+LGA -> MIA,LGA,MIA,New York,Miami,NY,FL,91,2.89,-8.0,0.26,1096.0,3,26.37
+ATL -> EWR,ATL,EWR,Atlanta,Newark,GA,NJ,90,8.06,-10.0,0.2,746.0,2,20.0
+JFK -> BOS,JFK,BOS,New York,Boston,NY,MA,90,13.32,-7.0,0.26,187.0,3,25.56
+RDU -> ATL,RDU,ATL,Raleigh,Atlanta,NC,GA,90,0.61,-8.5,0.2,356.0,2,20.0
+SAN -> PHX,SAN,PHX,San Diego,Phoenix,CA,AZ,90,2.88,-5.5,0.17,304.0,3,16.67
+SMF -> LAX,SMF,LAX,Sacramento,Los Angeles,CA,CA,90,6.41,0.0,0.19,373.0,3,18.89
+ATL -> DCA,ATL,DCA,Atlanta,Arlington,GA,VA,89,0.4,-8.0,0.18,547.0,2,17.98
+ATL -> LAX,ATL,LAX,Atlanta,Los Angeles,GA,CA,89,-0.51,-8.0,0.17,1947.0,5,16.85
+ATL -> PBI,ATL,PBI,Atlanta,West Palm Beach,GA,FL,89,2.81,-4.0,0.12,545.0,2,12.36
+BWI -> ATL,BWI,ATL,Baltimore,Atlanta,MD,GA,89,14.08,-9.0,0.19,577.0,3,19.1
+LAX -> DEN,LAX,DEN,Los Angeles,Denver,CA,CO,89,7.43,-5.0,0.2,862.0,4,20.22
+MCO -> JFK,MCO,JFK,Orlando,New York,FL,NY,89,20.34,-4.0,0.3,944.0,3,29.89
+SAN -> LAX,SAN,LAX,San Diego,Los Angeles,CA,CA,89,18.64,4.0,0.26,109.0,1,25.84
+LGA -> FLL,LGA,FLL,New York,Ft. Lauderdale,NY,FL,88,11.28,-6.0,0.31,1076.0,3,31.03
+PHL -> MCO,PHL,MCO,Philadelphia,Orlando,PA,FL,87,7.1,-1.0,0.22,861.0,4,21.84
+SEA -> DEN,SEA,DEN,Seattle,Denver,WA,CO,87,9.53,0.0,0.22,1024.0,5,21.84
+ATL -> DEN,ATL,DEN,Atlanta,Denver,GA,CO,86,11.24,-5.0,0.2,1199.0,5,19.77
+ATL -> JAX,ATL,JAX,Atlanta,Jacksonville,GA,FL,86,2.81,-4.0,0.16,270.0,2,16.28
+ATL -> MSP,ATL,MSP,Atlanta,Minneapolis,GA,MN,86,-1.62,-6.5,0.14,907.0,3,13.95
+BOS -> BWI,BOS,BWI,Boston,Baltimore,MA,MD,86,-0.12,-8.5,0.12,369.0,2,11.63
+FLL -> LGA,FLL,LGA,Ft. Lauderdale,New York,FL,NY,86,8.99,-0.5,0.27,1076.0,3,26.74
+SFO -> PHX,SFO,PHX,San Francisco,Phoenix,CA,AZ,86,6.23,-3.0,0.17,651.0,6,17.44
+ORD -> DCA,ORD,DCA,Chicago,Arlington,IL,VA,85,12.35,-5.0,0.25,612.0,3,24.71
+DEN -> ATL,DEN,ATL,Denver,Atlanta,CO,GA,84,-0.77,-6.0,0.18,1199.0,5,18.07
+DEN -> IAH,DEN,IAH,Denver,Houston,CO,TX,84,10.49,2.0,0.29,862.0,3,28.92
+MCO -> EWR,MCO,EWR,Orlando,Newark,FL,NJ,84,13.8,-5.0,0.21,937.0,2,21.43
+SFO -> PDX,SFO,PDX,San Francisco,Portland,CA,OR,84,-1.87,-3.5,0.08,550.0,4,8.33
+BOS -> EWR,BOS,EWR,Boston,Newark,MA,NJ,82,5.24,-6.0,0.18,200.0,3,18.29
+EWR -> SFO,EWR,SFO,Newark,San Francisco,NJ,CA,82,13.04,-3.5,0.24,2565.0,2,24.39
+HNL -> LAX,HNL,LAX,Honolulu,Los Angeles,HI,CA,82,-2.95,-11.0,0.15,2556.0,4,14.81
+IAH -> LAX,IAH,LAX,Houston,Los Angeles,TX,CA,82,17.7,3.0,0.37,1379.0,2,36.59
+LGA -> DFW,LGA,DFW,New York,Dallas-Fort Worth,NY,TX,82,3.99,-7.5,0.26,1389.0,2,25.61
+MCO -> PHL,MCO,PHL,Orlando,Philadelphia,FL,PA,82,12.7,-3.0,0.24,861.0,4,24.39
+MIA -> ORD,MIA,ORD,Miami,Chicago,FL,IL,82,3.74,-3.5,0.26,1197.0,4,25.61
+MSP -> DEN,MSP,DEN,Minneapolis,Denver,MN,CO,82,-4.88,-7.0,0.15,680.0,5,14.63
+PHX -> SFO,PHX,SFO,Phoenix,San Francisco,AZ,CA,82,5.84,-6.5,0.22,651.0,6,21.95
+ATL -> RDU,ATL,RDU,Atlanta,Raleigh,GA,NC,81,10.3,-4.0,0.22,356.0,2,22.22
+HNL -> ITO,HNL,ITO,Honolulu,Hilo,HI,HI,81,1.72,1.0,0.09,216.0,1,8.64
+PHX -> SAN,PHX,SAN,Phoenix,San Diego,AZ,CA,81,6.65,-3.0,0.22,304.0,3,22.22
+SFO -> DFW,SFO,DFW,San Francisco,Dallas-Fort Worth,CA,TX,81,7.54,-5.0,0.17,1464.0,3,17.28
+DFW -> CLT,DFW,CLT,Dallas-Fort Worth,Charlotte,TX,NC,80,4.04,-3.5,0.11,936.0,2,11.25
+SFO -> DEN,SFO,DEN,San Francisco,Denver,CA,CO,80,12.82,-3.0,0.2,967.0,3,20.25
+SJC -> PHX,SJC,PHX,San Jose,Phoenix,CA,AZ,80,2.81,-5.0,0.16,621.0,3,16.25
+CLT -> ORD,CLT,ORD,Charlotte,Chicago,NC,IL,79,4.47,-7.0,0.23,599.0,5,22.78
+DTW -> LGA,DTW,LGA,Detroit,New York,MI,NY,79,11.63,-2.5,0.29,502.0,3,29.49
+PHX -> SEA,PHX,SEA,Phoenix,Seattle,AZ,WA,79,2.8,0.0,0.22,1107.0,6,21.52
+PHX -> SLC,PHX,SLC,Phoenix,Salt Lake City,AZ,UT,79,2.63,-5.0,0.15,507.0,5,15.19
+SFO -> SNA,SFO,SNA,San Francisco,Santa Ana,CA,CA,79,2.68,-5.0,0.13,372.0,3,12.82
+ATL -> RSW,ATL,RSW,Atlanta,Ft. Myers,GA,FL,78,-2.55,-9.0,0.1,515.0,3,10.26
+AUS -> DAL,AUS,DAL,Austin,Dallas,TX,TX,78,4.9,-3.0,0.14,189.0,2,14.1
+BOS -> JFK,BOS,JFK,Boston,New York,MA,NY,78,14.71,-2.0,0.28,187.0,3,28.21
+CLT -> DFW,CLT,DFW,Charlotte,Dallas-Fort Worth,NC,TX,78,-1.03,-6.0,0.09,936.0,2,9.09
+DFW -> AUS,DFW,AUS,Dallas-Fort Worth,Austin,TX,TX,78,8.74,-3.0,0.24,190.0,1,24.36
+DFW -> SFO,DFW,SFO,Dallas-Fort Worth,San Francisco,TX,CA,78,8.09,-4.5,0.24,1464.0,3,24.36
+EWR -> LAX,EWR,LAX,Newark,Los Angeles,NJ,CA,78,-0.79,-2.0,0.17,2454.0,2,16.88
+FLL -> BWI,FLL,BWI,Ft. Lauderdale,Baltimore,FL,MD,78,2.97,-9.0,0.21,925.0,3,20.51
+MKE -> ORD,MKE,ORD,Milwaukee,Chicago,WI,IL,78,11.37,-2.5,0.24,67.0,1,24.36
+ORD -> CLT,ORD,CLT,Chicago,Charlotte,IL,NC,78,8.32,-4.0,0.27,599.0,5,26.92
+ORD -> PHX,ORD,PHX,Chicago,Phoenix,IL,AZ,78,4.87,-5.5,0.24,1440.0,5,24.36
+PHL -> BOS,PHL,BOS,Philadelphia,Boston,PA,MA,78,1.28,-7.0,0.18,280.0,3,17.95
+SAN -> DEN,SAN,DEN,San Diego,Denver,CA,CO,78,6.96,-3.0,0.26,853.0,5,25.97
+SJU -> JFK,SJU,JFK,San Juan,New York,PR,NY,78,2.83,-14.0,0.14,1598.0,3,14.1
+CLT -> EWR,CLT,EWR,Charlotte,Newark,NC,NJ,77,14.83,-3.0,0.23,529.0,3,23.38
+JFK -> FLL,JFK,FLL,New York,Ft. Lauderdale,NY,FL,77,3.58,-4.0,0.23,1069.0,3,23.38
+SFO -> EWR,SFO,EWR,San Francisco,Newark,CA,NJ,77,3.66,-1.0,0.26,2565.0,2,25.97
+SJU -> MCO,SJU,MCO,San Juan,Orlando,PR,FL,77,0.18,-8.0,0.16,1189.0,3,15.58
+SNA -> PHX,SNA,PHX,Santa Ana,Phoenix,CA,AZ,77,-0.39,-4.0,0.12,338.0,3,11.69
+ATL -> HOU,ATL,HOU,Atlanta,Houston,GA,TX,76,7.33,-10.0,0.16,696.0,3,15.79
+DFW -> LGA,DFW,LGA,Dallas-Fort Worth,New York,TX,NY,76,1.28,-4.0,0.21,1389.0,2,21.33
+DTW -> ATL,DTW,ATL,Detroit,Atlanta,MI,GA,76,-1.0,-7.5,0.16,594.0,3,15.79
+IAH -> ORD,IAH,ORD,Houston,Chicago,TX,IL,76,17.68,1.0,0.28,925.0,4,27.63
+SNA -> SFO,SNA,SFO,Santa Ana,San Francisco,CA,CA,76,7.47,-2.0,0.24,372.0,3,23.68
+EWR -> ATL,EWR,ATL,Newark,Atlanta,NJ,GA,75,11.22,-12.5,0.19,746.0,3,18.92
+LAS -> ATL,LAS,ATL,Las Vegas,Atlanta,NV,GA,75,3.49,-4.0,0.16,1747.0,4,16.0
+LGA -> DTW,LGA,DTW,New York,Detroit,NY,MI,75,19.37,1.0,0.28,502.0,4,28.0
+ORD -> MKE,ORD,MKE,Chicago,Milwaukee,IL,WI,75,3.13,-3.0,0.15,67.0,1,14.67
+SAT -> DFW,SAT,DFW,San Antonio,Dallas-Fort Worth,TX,TX,75,3.92,-7.0,0.17,247.0,1,17.33
+CLE -> ORD,CLE,ORD,Cleveland,Chicago,OH,IL,73,11.47,-4.0,0.21,315.18,4,20.55
+IAD -> LAX,IAD,LAX,Chantilly,Los Angeles,VA,CA,73,-1.37,-6.0,0.18,2288.0,3,17.81
+LAS -> SAN,LAS,SAN,Las Vegas,San Diego,NV,CA,73,7.29,0.0,0.23,258.0,2,23.29
+LAX -> EWR,LAX,EWR,Los Angeles,Newark,CA,NJ,73,1.44,-4.0,0.21,2454.0,2,20.55
+LAX -> SAN,LAX,SAN,Los Angeles,San Diego,CA,CA,73,10.6,-2.0,0.22,109.0,1,21.92
+MDW -> ATL,MDW,ATL,Chicago,Atlanta,IL,GA,73,9.15,-6.0,0.23,591.0,2,23.29
+MSP -> PHX,MSP,PHX,Minneapolis,Phoenix,MN,AZ,73,-4.7,-10.0,0.08,1276.0,5,8.22
+ORD -> DTW,ORD,DTW,Chicago,Detroit,IL,MI,73,5.62,-9.0,0.18,235.0,5,17.81
+ORD -> MIA,ORD,MIA,Chicago,Miami,IL,FL,73,10.03,-5.0,0.23,1197.0,4,22.54
+PHX -> ORD,PHX,ORD,Phoenix,Chicago,AZ,IL,73,-4.95,-9.0,0.12,1440.0,5,12.33
+SEA -> LAS,SEA,LAS,Seattle,Las Vegas,WA,NV,73,4.93,-1.0,0.16,867.0,4,16.44
+ATL -> IAH,ATL,IAH,Atlanta,Houston,GA,TX,72,8.78,-5.5,0.19,689.0,5,19.44
+CLT -> LGA,CLT,LGA,Charlotte,New York,NC,NY,72,9.04,-1.5,0.19,544.0,3,19.44
+DFW -> SAT,DFW,SAT,Dallas-Fort Worth,San Antonio,TX,TX,72,-1.33,-6.5,0.11,247.0,1,11.11
+LGA -> DCA,LGA,DCA,New York,Arlington,NY,VA,72,2.85,-9.5,0.26,214.0,2,26.39
+ORD -> LAS,ORD,LAS,Chicago,Las Vegas,IL,NV,72,4.49,-6.0,0.17,1514.0,4,16.9
+SEA -> SJC,SEA,SJC,Seattle,San Jose,WA,CA,72,5.17,-1.5,0.21,697.0,3,20.83
