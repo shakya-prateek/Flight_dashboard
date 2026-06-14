@@ -1,6 +1,6 @@
 # US Flight Operations — A Plain-English Look at 2015 Delays
 
-**Data Visualization & Analytics (DVA) · Capstone 2 · Final project**
+**Data Visualization & Analytics (DVA) · Capstone 2 · Individual Project**
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Data-Pandas-150458?logo=pandas)](https://pandas.pydata.org/)
@@ -9,11 +9,11 @@
 | Item | Detail |
 |:-----|:---------|
 | **Sector** | Aviation / transportation |
-| **Team** | Section D — Group 19 |
+| **Author** | Prateek Shakya |
 | **Institute** | Newton School of Technology |
 | **Program** | Data Visualization & Analytics — Capstone 2 |
 | **Year of data** | 2015 (US domestic) |
-| **Repository** | [github.com/adamyatiwari12/SectionD_G19_FlightOps-Dashboard](https://github.com/adamyatiwari12/SectionD_G19_FlightOps-Dashboard) |
+| **Repository** | [github.com/shakya-prateek/Flight_dashboard](https://github.com/shakya-prateek/Flight_dashboard) |
 
 We analyzed a **stratified sample of 100,000 flights** from official 2015 on-time data to see **when** delays happen, **why** they happen, and what airlines and airports could change. **Python** (pandas, NumPy, SciPy/statsmodels) drives cleaning and statistics; **Tableau Public** hosts four interactive dashboards. The long-form write-up, tables, and contribution matrix are in **[`reports/project_report.pdf`](reports/project_report.pdf)**.
 
@@ -190,7 +190,6 @@ graph LR
 ├── docs/data_dictionary.md
 ├── tableau/dashboard_links.md    tableau/screenshots/
 ├── reports/project_report.pdf    reports/presentation.pdf
-├── dva-oriented-resume/          dva-oriented-portfolio/
 └── README.md
 ```
 
@@ -201,26 +200,17 @@ graph LR
 ## Quick start
 
 ```bash
-git clone https://github.com/adamyatiwari12/SectionD_G19_FlightOps-Dashboard.git
-cd SectionD_G19_FlightOps-Dashboard
+git clone https://github.com/shakya-prateek/Flight_dashboard.git
+cd Flight_dashboard
 python3 scripts/etl_pipeline.py
 python3 scripts/tableau_prep.py
 ```
 
 ---
 
-## Team — Section D, Group 19
+## Author
 
-| Role | Member |
-|------|--------|
-| **Project Lead** | Adamya Tiwari |
-| **Data Lead** | Prateek |
-| **ETL Lead** | Yash Raghubanshi |
-| **Visualization Lead** | Agnik Misra |
-| **Analysis & Strategy Lead** | Rahul |
-| **PPT Lead** | Ram |
-
-Contribution matrix (P/S) vs Git history → **report §16** and **GitHub Insights**.
+- **Prateek Shakya** (Data Lead, ETL, & Visualization)
 
 ---
 
@@ -235,4 +225,4 @@ Contribution matrix (P/S) vs Git history → **report §16** and **GitHub Insigh
 
 ---
 
-*Newton School of Technology · DVA Capstone 2 · All analysis is the team’s own work; cite the repo if you build on it.*
+*Newton School of Technology · DVA Capstone 2 · All analysis is my own work; cite the repo if you build on it.*
